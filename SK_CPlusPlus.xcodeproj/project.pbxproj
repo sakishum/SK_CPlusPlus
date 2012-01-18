@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB037DD14C691E10014C876 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEB037DC14C691E10014C876 /* main.cpp */; };
+		EEB037DF14C691E10014C876 /* SK_CPlusPlus.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEB037DE14C691E10014C876 /* SK_CPlusPlus.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEB037D614C691E10014C876 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EEB037DF14C691E10014C876 /* SK_CPlusPlus.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EEB037D814C691E10014C876 /* SK_CPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SK_CPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB037DC14C691E10014C876 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEB037DE14C691E10014C876 /* SK_CPlusPlus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SK_CPlusPlus.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB037D514C691E10014C876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB037CD14C691E10014C876 = {
+			isa = PBXGroup;
+			children = (
+				EEB037DB14C691E10014C876 /* SK_CPlusPlus */,
+				EEB037D914C691E10014C876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB037D914C691E10014C876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB037D814C691E10014C876 /* SK_CPlusPlus */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB037DB14C691E10014C876 /* SK_CPlusPlus */ = {
+			isa = PBXGroup;
+			children = (
+				EEB037DC14C691E10014C876 /* main.cpp */,
+				EEB037DE14C691E10014C876 /* SK_CPlusPlus.1 */,
+			);
+			path = SK_CPlusPlus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB037D714C691E10014C876 /* SK_CPlusPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB037E214C691E10014C876 /* Build configuration list for PBXNativeTarget "SK_CPlusPlus" */;
+			buildPhases = (
+				EEB037D414C691E10014C876 /* Sources */,
+				EEB037D514C691E10014C876 /* Frameworks */,
+				EEB037D614C691E10014C876 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SK_CPlusPlus;
+			productName = SK_CPlusPlus;
+			productReference = EEB037D814C691E10014C876 /* SK_CPlusPlus */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB037CF14C691E10014C876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "招商局物流集团";
+			};
+			buildConfigurationList = EEB037D214C691E10014C876 /* Build configuration list for PBXProject "SK_CPlusPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEB037CD14C691E10014C876;
+			productRefGroup = EEB037D914C691E10014C876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB037D714C691E10014C876 /* SK_CPlusPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB037D414C691E10014C876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB037DD14C691E10014C876 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEB037E014C691E10014C876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EEB037E114C691E10014C876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EEB037E314C691E10014C876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEB037E414C691E10014C876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB037D214C691E10014C876 /* Build configuration list for PBXProject "SK_CPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB037E014C691E10014C876 /* Debug */,
+				EEB037E114C691E10014C876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB037E214C691E10014C876 /* Build configuration list for PBXNativeTarget "SK_CPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB037E314C691E10014C876 /* Debug */,
+				EEB037E414C691E10014C876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB037CF14C691E10014C876 /* Project object */;
+}
