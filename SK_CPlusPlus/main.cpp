@@ -12,6 +12,7 @@
 
 #include "Surrogate.h"
 #include "Handle.h"
+#include "Expr.h"
 
 using namespace std;
 
@@ -122,6 +123,22 @@ int main (int argc, const char * argv[])
     //cout <<"h5(" << h5.x() <<":"<< h5.y() << "):" << h5.OutputU() <<endl;
     cout<<p.x()<<" "<<p.y()<<endl;
     //cout<<&p1<<endl;
+    
+    /// ============== Memset array
+    int *pNum = new int[100];
+    memset(pNum,0,sizeof(int)*(100));
+    pNum[19] = 20;
+    cout<<pNum[19]<<endl;
+    cout<<pNum[20]<<endl;
+    if (pNum != NULL) {
+        delete []pNum;
+        pNum = NULL;
+    }
+    cout<<"Start"<<endl;
+    /// =============== A example of OOP
+    Expr t = Expr("*", Expr("-",5), Expr("+", 3, 4));
+    cout <<t<<"="<<t.eval()<<endl;
+    
     return 0;
 }
 

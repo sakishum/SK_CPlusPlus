@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE5672F11671AE3200DC91E3 /* Surrogate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE5672EF1671AE3200DC91E3 /* Surrogate.cpp */; };
 		EE5CAA0E1676F3950044A01F /* Handle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE5CAA0C1676F3950044A01F /* Handle.cpp */; };
+		EE697FC5168032AF004E332D /* Expr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE697FC3168032AF004E332D /* Expr.cpp */; };
 		EEB037DD14C691E10014C876 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEB037DC14C691E10014C876 /* main.cpp */; };
 		EEB037DF14C691E10014C876 /* SK_CPlusPlus.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EEB037DE14C691E10014C876 /* SK_CPlusPlus.1 */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,8 @@
 		EE5672F01671AE3200DC91E3 /* Surrogate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Surrogate.h; sourceTree = "<group>"; };
 		EE5CAA0C1676F3950044A01F /* Handle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Handle.cpp; sourceTree = "<group>"; };
 		EE5CAA0D1676F3950044A01F /* Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handle.h; sourceTree = "<group>"; };
+		EE697FC3168032AF004E332D /* Expr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Expr.cpp; sourceTree = "<group>"; };
+		EE697FC4168032AF004E332D /* Expr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expr.h; sourceTree = "<group>"; };
 		EEB037D814C691E10014C876 /* SK_CPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SK_CPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB037DC14C691E10014C876 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EEB037DE14C691E10014C876 /* SK_CPlusPlus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SK_CPlusPlus.1; sourceTree = "<group>"; };
@@ -56,6 +59,15 @@
 			name = Handle;
 			sourceTree = "<group>";
 		};
+		EE697FC7168032B8004E332D /* Expr */ = {
+			isa = PBXGroup;
+			children = (
+				EE697FC3168032AF004E332D /* Expr.cpp */,
+				EE697FC4168032AF004E332D /* Expr.h */,
+			);
+			name = Expr;
+			sourceTree = "<group>";
+		};
 		EEB037CD14C691E10014C876 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +87,7 @@
 		EEB037DB14C691E10014C876 /* SK_CPlusPlus */ = {
 			isa = PBXGroup;
 			children = (
+				EE697FC7168032B8004E332D /* Expr */,
 				EE5CAA0A1676F3740044A01F /* Handle */,
 				EEB037DC14C691E10014C876 /* main.cpp */,
 				EEB037DE14C691E10014C876 /* SK_CPlusPlus.1 */,
@@ -110,7 +123,7 @@
 		EEB037CF14C691E10014C876 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "招商局物流集团";
 			};
 			buildConfigurationList = EEB037D214C691E10014C876 /* Build configuration list for PBXProject "SK_CPlusPlus" */;
@@ -138,6 +151,7 @@
 				EEB037DD14C691E10014C876 /* main.cpp in Sources */,
 				EE5672F11671AE3200DC91E3 /* Surrogate.cpp in Sources */,
 				EE5CAA0E1676F3950044A01F /* Handle.cpp in Sources */,
+				EE697FC5168032AF004E332D /* Expr.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
