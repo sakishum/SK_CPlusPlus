@@ -38,12 +38,12 @@ public:
     ~Expr();
     Expr& operator=(const Expr&);
     int eval() const;
-};
+}; 
 
 class Expr_node
 {
     friend ostream& operator<<(ostream&, const Expr_node&);
-    friend class Expr;  /// 友元类可以被继承,句柄类Expr还要操作这里的use，所以是必须的
+    friend class Expr;  /// friend classes are not inherite!
     int use;            /// ref count
     
     virtual void print(ostream&) const = 0;
